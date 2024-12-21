@@ -116,7 +116,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE): # 
 
 
 def main():
-    bot_token = os.getenv("BOT_TOKEN")
+    bot_token = os.getenv("7614358204:AAEbOhrQWAJj0JZufYsdcocQd69fDkSUCDA")
     application = Application.builder().token(bot_token).build()
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     print("Bot started. Ctrl+c to stop")
